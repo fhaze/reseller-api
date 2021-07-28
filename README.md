@@ -45,7 +45,7 @@ Done! the api should be running on http://localhost:8000
 
 ## ⚗️ Running the Unit Tests
 
-The unit tests are using the library [mocha](https://mochajs.org/).
+The unit tests are using the [mocha](https://mochajs.org/) library.
 
 ```shell
 yarn test
