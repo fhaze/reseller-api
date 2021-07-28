@@ -5,7 +5,7 @@
 [![#](https://img.shields.io/badge/NodeJS-14.17.3-blue.svg)]()
 [![#](https://img.shields.io/badge/Express-4.17.1-blueviolet.svg)]()
 
-API de cadastro de revendedores, compras e cálculo de cashback
+API de cadastro de revendedores, compras e cálculo de cashback.
 
 ## 🔌 Requirementos
 
@@ -16,7 +16,7 @@ Este projeto foi criado utilizando [NodeJS](https://nodejs.org/) e [Yarn](https:
 - Docker
 - Docker-Compose
 
-> 📢 **Ei!** caso não tenha o `yarn` instalado, é possível também utilizar o ` npm`. 
+> 📢 **Ei!** caso não tenha o `yarn` instalado, é possível também utilizar o `npm`. 
 
 ## 🚀 Executando o Projeto
 
