@@ -47,8 +47,16 @@ Caso tudo ocorra bem, a rest api estara executando em http://localhost:8000
 
 Os Testes Unitários utilizam a lib [mocha](https://mochajs.org/).
 
+yarn
+
 ```shell
 yarn test
+```
+
+npm
+
+```shell
+npm run test
 ```
 
 ## 📫 Postman 
