@@ -4,6 +4,7 @@ English | [Português](README.pt-BR.md)
 
 [![#](https://img.shields.io/badge/NodeJS-14.17.3-blue.svg)]()
 [![#](https://img.shields.io/badge/Express-4.17.1-blueviolet.svg)]()
+[![#](https://img.shields.io/badge/MariaDB-10.6.3-purple.svg)]()
 
 API to register reseller, purchases and provide cashback  calculation and balance.
 
