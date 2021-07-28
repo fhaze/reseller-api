@@ -13,8 +13,8 @@ router.post("/", asyncHandler(async(req, res) => {
     { name: "cpf", required: true},
     { name: "password", required: true},
   ])
-  const insertId = await create({ fullname, cpf, email, password })
-  res.status(201).json({message: "reseller created successfully", insertId})
+  await create({ fullname, cpf, email, password })
+  res.status(201).json({message: "reseller created successfully"})
 }))
 
 router.get("/balance", jwt, asyncHandler(async (req, res) => {

@@ -198,7 +198,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"date\": \"2021-07-28\",\r\n    \"value\": 2000\r\n}",
+					"raw": "{\r\n    \"date\": \"2021-07-28\",\r\n    \"value\": 1200\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
