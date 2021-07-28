@@ -1,26 +1,26 @@
-Português | [English](README.en-US.md)
+English | [Português](README.pt-BR.md)
 
-# Revendedor API
+# Reseller API
 
 [![#](https://img.shields.io/badge/NodeJS-14.17.3-blue.svg)]()
 [![#](https://img.shields.io/badge/Express-4.17.1-blueviolet.svg)]()
 
-API de cadastro de revendedores, compras e cálculo de cashback
+API to register reseller, purchases and provide cashback  calculation and balance.
 
-## 🔌 Requirementos
+## 🔌 Requirements
 
-Este projeto foi criado utilizando [NodeJS](https://nodejs.org/) e [Yarn](https://yarnpkg.com/) como gerenciador de dependência, sendo assim requeridos para o ambiente de desenvolvimento.
+This project was created using [NodeJS](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) as the package manager, you should have those tools installed before using this project.
 
 - NodeJS
 - Yarn
 - Docker
 - Docker-Compose
 
-> 📢 **Ei!** caso não tenha o `yarn` instalado, é possível também utilizar o ` npm`. 
+> 📢 **Hey!** You can also use `npm` in case you don't have `yarn` installed.
 
-## 🚀 Executando o Projeto
+## 🚀 Running the Project
 
-Com os requisitos acima instalados, voce pode prosseguir com os seguintes comandos de acordo com seu gerenciador de dependência.
+Having the requirements installed and ready, you can continue with the following steps based the desired package manager.
 
 ### yarn
 
@@ -40,25 +40,25 @@ db-migrate up
 npm start
 ```
 
-Caso tudo ocorra bem, a rest api estara executando em http://localhost:8000
+Done! the api should be running on http://localhost:8000
 
-## ⚗️ Executando Testes Unitários
+## ⚗️ Running the Unit Tests
 
-Os Testes Unitários utilizam a lib [mocha](https://mochajs.org/).
+The unit tests are using the library [mocha](https://mochajs.org/).
 
 ```shell
 yarn test
 ```
 
-## 📫 Postman 
+## 📫 Postman
 
-Para facilitar a interacao com a API foi criado um [arquivo postman](Reseller_API.postman_collection.json).
+This [postman file](Reseller_API.postman_collection.json) was created to be used for local development, feel free to use it.
 
-> 📢 **Ei!** A rota de autenticação automaticamente injeta o token JWT no header, facilitando o uso 🍻.
+> 📢 **Hey!** The authentication endpoint automatically injects the JWT token into the headers, for easy of use 🍻.
 
-## 🛑 Regras adicionais
+## 🛑 Additional Rules
 
-- Não é possível cadastrar mais de 1 compra com o mesmo `code`.
-- O revendedor autenticado apenas pode ver, editar e remover suas proprias compras.
-- `cpf` e `email` são validados no ato de cadastro do revendedor.
-- A edição de compra apenas permite alterar os campos de `date` e `value`.
+- It is not possible to register more than one purchase using the same `code`.
+- The authenticated reseller can only view, edit and delete his/her own purchases.
+- `cpf` and `email` are validated when registering a new reseller.
+- You can only change `date` and `value` when updating a purchase.
