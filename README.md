@@ -21,7 +21,7 @@ This project was created using [NodeJS](https://nodejs.org/) and [Yarn](https://
 
 ## 🚀 Running the Project
 
-Having the requirements installed and ready, you can continue with the following steps based the desired package manager.
+Having the requirements installed and ready, you can continue with the following steps based on the desired package manager.
 
 ### yarn
 
