@@ -67,7 +67,8 @@ Para facilitar a interacao com a API foi criado um [arquivo postman](Reseller_AP
 
 ## 🛑 Regras adicionais
 
-- Não é possível cadastrar mais de 1 compra com o mesmo `code`.
+- Não é possível cadastrar mais de um revendedor com o mesmo `cpf`.
+- Não é possível cadastrar mais de uma compra com o mesmo `code`.
 - O revendedor autenticado apenas pode ver, editar e remover suas proprias compras.
 - `cpf` e `email` são validados no ato de cadastro do revendedor.
 - A edição de compra apenas permite alterar os campos de `date` e `value`.
