@@ -27,7 +27,7 @@ Com os requisitos acima instalados, voce pode prosseguir com os seguintes comand
 
 ```shell
 yarn
-docker-compose up
+docker-compose up -d
 yarn migrate-up
 yarn start
 ```
@@ -36,7 +36,7 @@ yarn start
 
 ```shell
 npm install
-docker-compose up
+docker-compose up -d
 npm run migrate-up
 npm start
 ```
