@@ -27,7 +27,7 @@ Having the requirements installed and ready, you can continue with the following
 
 ```shell
 yarn
-docker-compose up
+docker-compose up -d
 yarn migrate-up
 yarn start
 ```
@@ -36,7 +36,7 @@ yarn start
 
 ```shell
 npm install
-docker-compose up
+docker-compose up -d
 npm run migrate-up
 npm start
 ```
