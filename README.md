@@ -68,6 +68,7 @@ This [postman file](Reseller_API.postman_collection.json) was created to be used
 
 ## 🛑 Additional Rules
 
+- It is not possible to register more than one reseller using the same `cpf`.
 - It is not possible to register more than one purchase using the same `code`.
 - The authenticated reseller can only view, edit and delete his/her own purchases.
 - `cpf` and `email` are validated when registering a new reseller.
